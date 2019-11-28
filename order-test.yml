@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: jinghuo@@@mysql
+    url: jdbc:mysql://120.55.170.159:3306/SpringCloud_Sell?allowMultiQueries=true&autoReconnect=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  port: 8080
+env:
+  test4
+girl:
+  name: lili
+  age: 20
